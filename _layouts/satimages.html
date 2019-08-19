@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body id="page-top" data-spy="scroll">
+  {% include nav.html %}
+  <div id="home" class='section welcome-little'>
+    <div class="container h-100">
+    
+    <div class="row align-items-center h-100">
+    <div class="col-3"><img class="wss-img-little" src="img/logo.png"></img></div>
+    <div class="col-6 w-text-little"> 
+        <h1>Satellite Imagery</h1>
+    </div>    
+    <div class="col-3"><img class="wupna-img-little" src="img/upnaLogo.png"></img></div>
+
+    </div>
+    </div> 
+    
+  </div>
+  <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 text-center">
+                <div class="service-box">
+                    <img class="r-img" src="img/satimages/MainIMG_3.jpg"></img>
+                    <h2 class="title-color">RGISTools package</h2>
+                    <p align="justify">This package aims for downloading, processing, and smoothing time series of satellite images from Landsat, MODIS and Sentinel satellite programs in a uniform and standardized way. The functions of RGISTools automatically convert the original formats into .tif files, which can be loaded into R. The processing functions of RGISTools include tile mosaicking, cropping, and extracting the variables of interest. When multiple tile match the region of interest, RGISTools combines them to generate a single image and crops the area of interest to save memory and computing time. All images available in a range of dates are then stacked to produce time series of satellite images for a particular area. Images may have clouds or measurement errors that limit their use in subsequent analyses. Hence, the package includes a set of functions for removing clouds, gap filling and smoothing. Due to the wide variety of procedures and sources of information being handled in RGISTools, the functions are divided into 6 categories, which are identified by the first 3 characters of the function names; (1) mod –for MODIS Terra and Aqua satellite images, (2) sen – for Sentinel images, (3) ls7 - for Landsat 7 images, (4) ls8 – for Landsat 8 images, (5) ls –  for  both Landsat 7 and 8 images, (6) gen – for any of the three platforms.<br><a href="https://github.com/spatialstatisticsupna/RGISTools" target="_blank">Find the package in GitHub</a></p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 text-center">
+                <div class="service-box">
+                    <img class="r-img" src="img/satimages/HozLSTDA_2011073_NAMES_ALL.jpg"></img>
+                    <h2 class="title-color">Interpolation of the Mean Anomalies for Cloud Filling in Land Surface Temperature and Normalized Difference Vegetation Index</h2>
+                    <p align="justify">When monitoring time series of remote sensing data, it is advisable to fill gaps, i.e., missing or distorted data, caused by atmospheric effects or technical failures. In this paper, a new method for filling these gaps called interpolation of the mean anomalies (IMA) is proposed and compared with some competitors. The method consists of: 1) defining a neighborhood for the target image from previous and subsequent images across previous and subsequent years; 2) computing the mean target image of the neighborhood; 3) estimating the anomalies in the target image by subtracting the mean image from the target image; 4) filtering the anomalies; 5) averaging the anomalies over a predefined window; 6) interpolating the averaged anomalies; and 7) adding the interpolated anomalies to the mean image. To assess the performance of the IMA method, both a real example and a simulation study are conducted with a time series of Moderate Resolution Imaging Spectroradiometer (MODIS) TERRA and MODIS AQUA images captured over the region of Navarre (Spain) from 2011 to 2013. We analyze the land surface temperature (LST) day and night, and the normalized difference vegetation index (NDVI). In the simulation study, seven sizes of artificial clouds are randomly introduced to each image in the studied time series. The square root of the mean-squared prediction error (RMSE) between the original and the filled data is chosen as an indicator of the goodness of fit. The results show that the IMA method outperforms Timesat, Hants, and Gapfill (GF) in filling small, moderate, and big cloud gaps in both the day and night LST and NDVI data, reaching RMSE reductions of up to 23%.<br> <a href="https://ieeexplore.ieee.org/abstract/document/8692724" target="_blank">View Full-Text (open access)</a></p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 text-center">
+                <div class="service-box">
+                    <img class="r-img" src="img/satimages/Navarra_LST_Noviembre4_2011.jpg"></img>
+                    <h2 class="title-color">Improving the Quality of Satellite Imagery Based on Ground-Truth Data from Rain Gauge Stations</h2>
+                    <p align="justify" >Multitemporal imagery is by and large geometrically and radiometrically accurate, but the residual noise arising from removal clouds and other atmospheric and electronic effects can produce outliers that must be mitigated to properly exploit the remote sensing information. In this study, we show how ground-truth data from rain gauge stations can improve the quality of satellite imagery. To this end, a simulation study is conducted wherein different sizes of outlier outbreaks are spread and randomly introduced in the normalized difference vegetation index (NDVI) and the day and night land surface temperature (LST) of composite images from Navarre (Spain) between 2011 and 2015. To remove outliers, a new method called thin-plate splines with covariates (TpsWc) is proposed. This method consists of smoothing the median anomalies with a thin-plate spline model, whereby transformed ground-truth data are the external covariates of the model. The performance of the proposed method is measured with the square root of the mean square error (RMSE), calculated as the root of the pixel-by-pixel mean square differences between the original data and the predicted data with the TpsWc model and with a state-space model with and without covariates. The study shows that the use of ground-truth data reduces the RMSE in both the TpsWc model and the state-space model used for comparison purposes. The new method successfully removes the abnormal data while preserving the phenology of the raw data. The RMSE reduction percentage varies according to the derived variables (NDVI or LST), but reductions of up to 20% are achieved with the new proposal.<br> <a href="https://www.mdpi.com/2072-4292/10/3/398" target="_blank">View Full-Text (open access)</a></p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 text-center">
+                <div class="service-box">
+                    <img class="r-img" src="img/satimages/spain_salidas.jpg"></img>
+                    <h2 class="title-color">Stochastic Spatio-Temporal Models for Analysing NDVI Distribution of GIMMS NDVI3g Images </h2>
+                    <p align="justify" >The normalized difference vegetation index (NDVI) is an important indicator for evaluating vegetation change, monitoring land surface fluxes or predicting crop models. Due to the great availability of images provided by different satellites in recent years, much attention has been devoted to testing trend changes with a time series of NDVI individual pixels. However, the spatial dependence inherent in these data is usually lost unless global scales are analyzed. In this paper, we propose incorporating both the spatial and the temporal dependence among pixels using a stochastic spatio-temporal model for estimating the NDVI distribution thoroughly. The stochastic model is a state-space model that uses meteorological data of the Climatic Research Unit (CRU TS3. 10) as auxiliary information. The model will be estimated with the Expectation-Maximization (EM) algorithm. The result is a set of smoothed images providing an overall analysis of the NDVI distribution across space and time, where fluctuations generated by atmospheric disturbances, fire events, land-use/cover changes or engineering problems from image capture are treated as random fluctuations. The illustration is carried out with the third generation of NDVI images, termed NDVI3g, of the Global Inventory Modeling and Mapping Studies (GIMMS) in continental Spain. This data are taken in bymonthly periods from January 2011 to December 2013, but the model can be applied to many other variables, countries or regions with different resolutions. <br><a href="https://www.mdpi.com/2072-4292/9/1/76" target="_blank">View Full-Text (open access)</a></p>
+                </div>
+            </div>
+        </div>
+        
+ </div>
+
+ 
+{% include footer.html %}
+</body>
+
+</html>

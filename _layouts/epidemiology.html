@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body id="page-top" data-spy="scroll">
+  {% include nav.html %}
+    <div id="home" class='section welcome-little'>
+    <div class="container h-100">
+    
+    <div class="row align-items-center h-100">
+    <!--<div class="col-3"><img class="wss-img-little" src="img/logo.png"></img></div>-->
+    <div class="col-12 w-text-little"> 
+        <h1>Spatio-temporal epidemiology and gender-based violence</h1>
+    </div>    
+    <!--<div class="col-3"><img class="wupna-img-little" src="img/upnaLogo.png"></img></div>-->
+
+    </div>
+    </div> 
+    
+  </div>
+  <div class="container">
+  <div class="row">
+  <div class="col-lg-12 col-md-12 text-center">
+                <div class="service-box">
+                    <img class="r-img" src="img/epidemiology/Imagen_SSTCDapp.jpg"></img>
+                    <h2 class="title-color">SSTCDapp WEB APPLICATION</h2>
+                    <p align="justify">An interactive and user-friendly web application designed to fit an extensive range of fairly complex spatio-temporal models to smooth the very often extremely variable standardized incidence/mortality risks or crude rates. The application is built with the R package shiny and relies on the well-founded integrated nested Laplace approximation technique for model fitting and inference. Although SSTCDapp is simple to use, the underlying statistical theory is well founded and all key issues such as model identifiability, model selection, and several spatial priors and hyperpriors for sensitivity analyses are properly addressed.</p>
+                </div>
+  </div>
+  <div class="col-lg-6 col-md-6 text-center">
+                <div class="service-box">
+                    <img class="r-img" src="img/epidemiology/RelativeRisks.jpg"></img>
+                    <h2 class="title-color">Online relative risks/rates estimation in spatial and spatio-temporal disease mapping</h2>
+                    <p align="justify">Spatial and spatio-temporal analyses of count data are crucial in epidemiology and other fields to unveil spatial and spatio-temporal patterns of incidence and/or mortality risks. However, fitting spatial and spatio-temporal models is not easy for non-expert users. The objective of this paper is to present an interactive and user-friendly web application (named SSTCDapp) for the analysis of spatial and spatio-temporal mortality or incidence data. Although SSTCDapp is simple to use, the underlying statistical theory is well founded and all key issues such as model identifiability, model selection, and several spatial priors and hyperpriors for sensitivity analyses are properly addressed. The web application is designed to fit an extensive range of fairly complex spatio-temporal models to smooth the very often extremely variable standardized incidence/mortality risks or crude rates. The application is built with the R package shiny and relies on the well founded integrated nested Laplace approximation technique for model fitting and inference. The use of the web application is shown through the analysis of Spanish spatio-temporal breast cancer data. Different possibilities for the analysis regarding the type of model, model selection criteria, and a range of graphical as well as numerical outputs are provided. Unlike other software used in disease mapping, SSTCDapp facilitates the fit of complex statistical models to non-experts users without the need of installing any software in their own computers, since all the analyses and computations are made in a powerful remote server. In addition, a desktop version is also available to run the application locally in those cases in which data confidentiality is a serious issue.<br> <a href="https://doi.org/10.1016/j.cmpb.2019.02.014" target="_blank">View Full-Text</a></p>
+                </div>
+  </div>
+  <div class="col-lg-6 col-md-6 text-center">
+                <div class="service-box">
+                    <img class="r-img" src="img/epidemiology/twoleveldenguecolombia.jpg"></img>
+                    <h2 class="title-color">Two-level resolution of relative risk of dengue disease in a hyperendemic city of Colombia</h2>
+                    <p align="justify">Risk maps of dengue disease offer to the public health officers a tool to model disease risk in space and time. We analyzed the geographical distribution of relative incidence risk of dengue disease in a high incidence city from Colombia, and its evolution in time during the period January 2009—December 2015, identifying regional effects at different levels of spatial aggregations. Cases of dengue disease were geocoded and spatially allocated to census sectors, and temporally aggregated by epidemiological periods. The census sectors are nested in administrative divisions defined as communes, configuring two levels of spatial aggregation for the dengue cases. Spatio-temporal models including census sector and commune-level spatially structured random effects were fitted to estimate dengue incidence relative risks using the integrated nested Laplace approximation (INLA) technique. The final selected model included two-level spatial random effects, a global structured temporal random effect, and a census sector-level interaction term. Risk maps by epidemiological period and risk profiles by census sector were generated from the modeling process, showing the transmission dynamics of the disease. All the census sectors in the city displayed high risk at some epidemiological period in the outbreak periods. Relative risk estimation of dengue disease using INLA offered a quick and powerful method for parameter estimation and inference.<br> <a href="https://doi.org/10.1371/journal.pone.0203382" target="_blank">View Full-Text</a></p>
+                </div>
+  </div>
+  <div class="col-lg-6 col-md-6 text-center">
+                <div class="service-box">
+                    <img class="r-img" src="img/epidemiology/twostages.jpg"></img>
+                    <h2 class="title-color">A two-stage approach to estimate spatial and spatio-temporal disease risks in the presence of local discontinuities and clusters</h2>
+                    <p align="justify">Disease risk maps for areal unit data are often estimated from Poisson mixed models with local spatial smoothing, for example by incorporating random effects with a conditional autoregressive prior distribution. However, one of the limitations is that local discontinuities in the spatial pattern are not usually modelled, leading to over-smoothing of the risk maps and a masking of clusters of hot/coldspot areas. In this paper, we propose a novel two-stage approach to estimate and map disease risk in the presence of such local discontinuities and clusters. We propose approaches in both spatial and spatio-temporal domains, where for the latter the clusters can either be fixed or allowed to vary over time. In the first stage, we apply an agglomerative hierarchical clustering algorithm to training data to provide sets of potential clusters, and in the second stage, a two-level spatial or spatio-temporal model is applied to each potential cluster configuration. The superiority of the proposed approach with regard to a previous proposal is shown by simulation, and the methodology is applied to two important public health problems in Spain, namely stomach cancer mortality across Spain and brain cancer incidence in the Navarre and Basque Country regions of Spain.<br> <a href="https://doi.org/10.1177/0962280218767975" target="_blank">View Full-Text</a></p>
+                </div>
+  </div>
+  <div class="col-lg-6 col-md-6 text-center">
+                <div class="service-box">
+                    <img class="r-img" src="img/epidemiology/flexibleBayesian.jpg"></img>
+                    <h2 class="title-color">Flexible Bayesian P-splines for smoothing age-specific spatio-temporal mortality patterns</h2>
+                    <p align="justify">In this paper age–space–time models based on one and two-dimensional P-splines with B-spline bases are proposed for smoothing mortality rates, where both fixed relative scale and scale invariant two-dimensional penalties are examined. Model fitting and inference are carried out using integrated nested Laplace approximations, a recent Bayesian technique that speeds up computations compared to McMC methods. The models will be illustrated with Spanish breast cancer mortality data during the period 1985–2010, where a general decline in breast cancer mortality has been observed in Spanish provinces in the last decades. The results reveal that mortality rates for the oldest age groups do not decrease in all provinces.<br> <a href="https://doi.org/10.1177/0962280217726802" target="_blank">View Full-Text</a></p>
+                </div>
+  </div>
+  
+  <div class="col-lg-6 col-md-6 text-center">
+                <div class="service-box">
+                    <img class="r-img" src="img/epidemiology/diseasemappingPQL_INLA.jpg"></img>
+                    <h2 class="title-color">In spatio-temporal disease mapping models, identifiability constraints affect PQL and INLA results</h2>
+                    <p align="justify">Disease mapping studies the distribution of relative risks or rates in space and time, and typically relies on generalized linear mixed models (GLMMs) including fixed effects and spatial, temporal, and spatio-temporal random effects. These GLMMs are typically not identifiable and constraints are required to achieve sensible results. However, automatic specification of constraints can sometimes lead to misleading results. In particular, the penalized quasi-likelihood fitting technique automatically centers the random effects even when this is not necessary. In the Bayesian approach, the recently-introduced integrated nested Laplace approximations computing technique can also produce wrong results if constraints are not well-specified. In this paper the spatial, temporal, and spatio-temporal interaction random effects are reparameterized using the spectral decompositions of their precision matrices to establish the appropriate identifiability constraints. Breast cancer mortality data from Spain is used to illustrate the ideas.<br> <a href="https://doi.org/10.1007/s00477-017-1405-0" target="_blank">View Full-Text</a></p>
+                </div>
+  </div>
+  <div class="col-lg-6 col-md-6 text-center">
+                <div class="service-box">
+                    <img class="r-img" src="img/epidemiology/onetwothreeB-spline.jpg"></img>
+                    <h2 class="title-color">One-dimensional, two-dimensional, and three-dimensional B-splines to specify space-time interactions in Bayesian disease mapping: model fitting and model identifiability</h2>
+                    <p align="justify">In recent years, models incorporating splines have been considered for smoothing risks in disease mapping. Although these models are very flexible, they can be computationally demanding in certain cases. In this work, one, two, and three-dimensional B-splines (penalized or unpenalized) are considered to model space–time interactions. Model identifiability issues are discussed and appropriate constraints are clearly established. As computing time could be a limitation in real practice, integrated nested Laplace approximations are used for model fitting and inference. The complete set of proposed models are illustrated using cancer mortality data in small areas. We conclude that if the number of small areas is not big, one dimensional P-splines for the space–time interaction could be a good choice. When the number of small areas increases substantially, two-dimensional and mainly three dimensional splines are computationally better alternatives.<br> <a href="https://doi.org/10.1016/j.spasta.2017.04.002" target="_blank">View Full-Text</a></p>
+                </div>
+  </div>
+  <div class="col-lg-6 col-md-6 text-center">
+                <div class="service-box">
+                    <img class="r-img" src="img/epidemiology/smoothinghighrisk.jpg"></img>
+                    <h2 class="title-color">Smoothing and high risk areas detection in space-time disease mapping: a comparison of P-splines, autoregressive, and moving average models</h2>
+                    <p align="justify">Recently, several models have been proposed for smoothing risks in disease mapping. These models consider different ways of introducing both spatial and temporal dependence as well as spatio-temporal interactions. In this work, a comparison among some autoregressive, moving average, and P-spline models is performed. Firstly, brain cancer mortality data are used to analyze the degree of smoothness introduced by these models. Secondly, two separate simulation studies (one model-based and the other model-free) are carried out to evaluate the model performance in terms of bias, variability, sensitivity, and specificity. We conclude that P-spline models seem to be a good alternative to autoregressive and moving average models when analyzing highly sparse disease mapping data <br> <a href="https://doi.org/10.1007/s00477-016-1269-8" target="_blank">View Full-Text</a></p>
+                </div>
+  </div>
+  <div class="col-lg-6 col-md-6 text-center">
+                <div class="service-box">
+                    <img class="r-img" src="img/epidemiology/twolevelsdiseasemapping.jpg"></img>
+                    <h2 class="title-color">Two-level spatially structured models in spatio-temporal disease mapping</h2>
+                    <p align="justify">This work focuses on extending some classical spatio-temporal models in disease mapping. The objective is to present a family of flexible models to analyze real data naturally organized in two different levels of spatial aggregation like municipalities within health areas or provinces, or counties within states. Model fitting and inference will be carried out using integrated nested Laplace approximations. The performance of the new models compared to models including a single spatial random effect is assessed by simulation. Results show good behavior of the proposed two-level spatially structured models in terms of several criteria. Brain cancer mortality data in the municipalities of two regions in Spain will be analyzed using the new model proposals. It will be shown that a model with two-level spatial random effects overcomes the usual single-level models.<br> <a href="https://doi.org/10.1177/0962280216660423" target="_blank">View Full-Text</a></p>
+                </div>
+  </div>
+  <div class="col-lg-6 col-md-6 text-center">
+                <div class="service-box">
+                    <img class="r-img" src="img/epidemiology/braincancerNavarreBasqueCountry.jpg"></img>
+                    <h2 class="title-color">Temporal evolution of brain cancer incidence in the municipalities of Navarre and the Basque Country, Spain</h2>
+                    <p align="justify">Brain cancer incidence rates in Spain are below the European’s average. However, there are two regions in the north of the country, Navarre and the Basque Country, ranked among the European regions with the highest incidence rates for both males and females. Our objective here was two-fold. Firstly, to describe the temporal evolution of the geographical pattern of brain cancer incidence in Navarre and the Basque Country, and secondly, to look for specific high risk areas (municipalities) within these two regions in the study period (1986–2008). A mixed Poisson model with two levels of spatial effects is used. The model also included two levels of spatial effects (municipalities and local health areas). Model fitting was carried out using penalized quasi-likelihood. High risk regions were detected using upper one-sided confidence intervals. Results revealed a group of high risk areas surrounding Pamplona, the capital city of Navarre, and a few municipalities with significant high risks in the northern part of the region, specifically in the border between Navarre and the Basque Country (Gipuzkoa). The global temporal trend was found to be increasing. Differences were also observed among specific risk evolutions in certain municipalities.<br> <a href="https://doi.org/10.1186/s12889-015-2354-5" target="_blank">View Full-Text</a></p>
+                </div>
+  </div>
+  <div class="col-lg-6 col-md-6 text-center">
+                <div class="service-box">
+                    <img class="r-img" src="img/epidemiology/braincancerspain.jpg"></img>
+                    <h2 class="title-color">Analyzing the evolution of young people brain cancer mortality in Spanish provinces</h2>
+                    <p align="justify">In this paper, our objective is to analyze the spatio-temporal evolution of brain cancer relative mortality risks in young population (under 20 years of age) in Spanish provinces during the period 1986–2010. For this purpose, a new and flexible conditional autoregressive spatio-temporal model with two levels of spatial aggregation was used. We observe that brain cancer relative mortality risks in young population in Spanish provinces decreased during the last years, although a clear increase was observed during the 1990s. The global geographical pattern emphasized a high relative mortality risk in Navarre and a low relative mortality risk in Madrid. Although there is a specific Autonomous Region–time interaction effect on the relative mortality risks this effect is weak in the final estimates when compared to the global spatial and temporal effects.<br> <a href="https://doi.org/10.1016/j.canep.2015.03.013" target="_blank">View Full-Text</a></p>
+                </div>
+  </div>
+  <div class="col-lg-6 col-md-6 text-center">
+                <div class="service-box">
+                    <img class="r-img" src="img/epidemiology/spatiotemporaldiseasemapping.jpg"></img>
+                    <h2 class="title-color">On fitting spatio-temporal disease mapping models using approximate Bayesian inference</h2>
+                    <p align="justify">Spatio-temporal disease mapping comprises a wide range of models used to describe the distribution of a disease in space and its evolution in time. These models have been commonly formulated within a hierarchical Bayesian framework with two main approaches: an empirical Bayes (EB) and a fully Bayes (FB) approach. The EB approach provides point estimates of the parameters relying on the well-known penalized quasi-likelihood (PQL) technique. The FB approach provides the posterior distribution of the target parameters. These marginal distributions are not usually available in closed form and common estimation procedures are based on Markov chain Monte Carlo (MCMC) methods. However, the spatio-temporal models used in disease mapping are often very complex and MCMC methods may lead to large Monte Carlo errors and a huge computation time if the dimension of the data at hand is large. To circumvent these potential inconveniences, a new technique called integrated nested Laplace approximations (INLA), based on nested Laplace approximations, has been proposed for Bayesian inference in latent Gaussian models. In this paper, we show how to fit different spatio-temporal models for disease mapping with INLA using the Leroux CAR prior for the spatial component, and we compare it with PQL via a simulation study. The spatio-temporal distribution of male brain cancer mortality in Spain during the period 1986–2010 is also analysed.<br> <a href="https://doi.org/10.1177/0962280214527528" target="_blank">View Full-Text</a></p>
+                </div>
+  </div>
+  <!--<div class="col-lg-6 col-md-6 text-center">
+                <div class="service-box">
+                    <img class="r-img" src="img/epidemiology/"></img>
+                    <h2 class="title-color"></h2>
+                    <p align="justify"><br> <a href="" target="_blank">View Full-Text</a></p>
+                </div>
+  </div>    -->
+  </div>
+        
+ </div>
+  {% include footer.html %}
+</body>
+
+</html>

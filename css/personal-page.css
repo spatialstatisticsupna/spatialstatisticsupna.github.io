@@ -1,0 +1,474 @@
+/*!
+ */
+ :root {
+  --section-text-color: black;
+  --content-color:black;
+  --content-title-color:#343A40;
+  --h1-color:#343A40;
+  --content-span-color:teal;
+  --content-span-color-over:#343A40;
+  /*--content-span-color-over:#DA291C; /*UPNA RED*/
+  /*--section-text-color:#343A40;*/
+  --section-text-color:white;
+  --section-bg-image:url('/img/CampusArrosadia.jpg');
+  --section-bg-color:grey;
+  --error-bg-image:url('/img/CampusArrosadia.jpg');
+}
+
+body {
+  background: no-repeat center center absolute;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100% auto;
+  background-attachment:fixed;
+}
+
+
+dd {
+  color:var(--content-title-color)
+}
+
+
+a a:link a:visited a:hover a:active{
+    color:#FFF;
+}
+
+.logonav{
+    height:45px;
+}
+
+
+.welcome{
+    mim-height: 350px;
+    height: 35vh;
+}
+
+#mycarousel {
+    background:white;
+    /*padding:2em;*/
+    width:100%;
+    /*max-width:1080px;*/
+}
+.carousel-item {
+  height: 65vh;
+  min-height: 150px;
+  max-height: 1500px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width:100%;
+
+  /*max-width:1080px;*/
+}
+.carousel-centered{
+    width:100%;
+    margin: 0 auto;
+    
+    /*max-width:1080px;*/
+}
+.carousel-indicators{
+    bottom:50px;
+}
+.carousel-caption{
+    bottom:50px;
+}
+
+
+#mycarousel-software {
+    background:white;
+    padding:2em;
+    max-width:1080px;
+    height: 75vh;
+}
+.carousel-software-item {
+  height: 85vh;
+  max-height: 400px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  max-width:1080px;
+}
+.software-centered{
+    text-align:center; 
+}
+.carousel-software-caption{
+    position: static;
+    left: auto;
+    right: auto;
+}
+
+.sofware-img{
+  height:80%;  
+}
+
+.sc-text{
+    /*border-color:#008000;
+    border-style:double;
+    background:#d5ffba;
+    color:black;*/
+    width:60wh;
+    margin: 0 auto;
+    text-align:center; 
+    vertical-align:middle;
+    color:#008000;
+}
+.sc-text h1{
+    font-weight:bold;
+    font-size:1.5vw;
+    color:#008000;
+}
+.sc-text h2{
+    font-weight:bold;
+    font-size:1vw;
+    color:#008000;
+}
+.sc-text p{
+    
+}
+.sc-text span{
+    
+}
+.title-color{
+  /*color: var(--content-span-color);*/
+  color:#008000;
+}
+.contact-style{
+  color:#008000;
+}
+
+#menu-nav {
+    
+}
+.navbar {
+    color: #FFFFFF;
+    background-color: #343A40;
+}
+
+.nav-item a{
+    color: #8dd35f;
+}
+.nav-item a:hover,.nav-item .active{
+    color: #008000;
+    font-weight:bold;
+}
+
+.active{
+    color: #008000;
+    font-weight:bold;
+}
+
+.dropdown-menu{
+    background:#343A40;
+    padding:0px;
+}
+
+.dropdown-menu a{
+    background:#343A40;
+    color: #8dd35f;
+    
+}
+.dropdown-menu a:hover, .active{
+    background:#343A40;
+    color: #008000;
+    font-weight:bold;
+}
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #343A40;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #343A40;}
+
+
+
+.navbar .navbar-toggler {
+   border-color: #008000;
+   color:#008000;
+}
+.navbar .navbar-toggler .navbar-toggler-icon {
+        color: #ffffff;
+}
+
+.section{
+  padding-top:75px;   
+}
+.section h1{
+    color:#008000;
+    
+}
+
+.memberstyle{
+    
+}
+.memberstyle h1{
+    color:#008000;
+}
+.memberstyle h2{
+    color:#008000;
+}
+.memberstyle h3{
+    color:#008000;
+    font-size:1.4em;
+}
+.memberstyle h4{
+    color:#008000;
+    font-size:1.2em;
+}
+/********************************************/
+/*Unai image and social styles*/
+/********************************************/
+#u-img{
+  min-width:200px;
+  width:95%;
+  border-radius: 50%;
+  padding-bottom: 15px;
+}
+#g-img{
+  min-width:200px;
+  width:95%;
+  border-radius: 2%;
+}
+#u-social{
+  height: 100px;
+  display: inline-block;
+}
+#u-social .fa, #u-social .ai,#u-social .upna{
+	font-size: 3em;
+	color:grey;
+}
+#u-social .upna{
+	font-size: 2.4em;
+}
+#u-social .fa:hover, #u-social .ai:hover, #u-social .upna:hover{
+	color:DimGray;
+}
+
+.logo-img path {
+  fill: #000;
+  background-color: #000;
+  width:50px;
+}
+/********************************************/
+/*member images sizes*/
+/********************************************/
+.m-img{
+  width:250px;
+  height:250px;
+  /*width:100%;*/
+  padding-bottom: 15px;
+  border-radius: 50%;
+  overflow: hidden;
+  object-fit:cover;
+}
+
+.r-img{
+
+  width:100%;
+  padding-bottom: 15px;
+  padding:5px;
+  overflow: hidden;
+  object-fit:cover;
+}
+/********************************************/
+/*Welcome sizes                             */
+/********************************************/
+.page-font{
+    font-family: Sans-Serif;
+}
+.w-text{
+    text-align:center; 
+    vertical-align:middle;
+}
+.w-text h1{
+    font-weight:bold;
+    font-size:3vw;
+    color:#008000;
+}
+.w-text h2{
+    font-weight:bold;
+    font-size:2vw;
+}
+.w-text h3{
+    font-size:1vw;
+}
+
+.c-text{
+    /*border-color:#008000;
+    border-style:double;
+    background:#d5ffba;
+    color:black;*/
+    width:60wh;
+    max-width:600px;
+    margin: 0 auto;
+    text-align:center; 
+    vertical-align:middle;
+}
+.c-text h1{
+    font-weight:bold;
+    font-size:1.5vw;
+}
+.c-text h2{
+    font-size:1.2vw;
+}
+.c-text h2 a{
+    border-radius: 50%;
+    padding-bottom: 5px;
+    background:white;
+    color:#008000;
+}
+.c-text h2 a:hover{
+    font-weight:bold;
+    text-decoration:none;
+    color:#008000;
+    
+}
+.w-text h3{
+    font-size:0.8vw;
+}
+
+.wss-img{
+  width:40%;
+  float:right;
+  overflow: hidden;
+  object-fit:cover;
+}
+.wupna-img{
+  width:75%;
+  overflow: hidden;
+  object-fit:cover;
+}
+
+.welcome-little{
+    mim-height: 200px;
+    height: 20vh;
+}
+.w-text-little{
+    text-align:center; 
+    vertical-align:middle;
+}
+.w-text-little h1{
+    font-weight:bold;
+    font-size:1.5vw;
+    color:#008000;
+}
+.w-text-little h2{
+    font-weight:bold;
+    font-size:1vw;
+}
+.w-text-little h3{
+    font-size:0.7vw;
+}
+.wss-img-little{
+  width:20%;
+  float:right;
+  overflow: hidden;
+  object-fit:cover;
+}
+.wupna-img-little{
+  width:37%;
+  overflow: hidden;
+  object-fit:cover;
+}
+
+/********************************************/
+/*Error 404 page*/
+/********************************************/
+#error-bg {
+  height: 100%;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-image: var(--error-bg-image);
+  text-align: center;
+  line-height: 100vh;
+}
+#error-text-align {
+    display: inline-block; 
+    text-align: left;
+    width: 85%;
+    max-width: 1080px;
+}
+#error-text-align h1 {
+  color: white;
+  font-size: 4em;
+}
+#error-text-align h2 {
+  color: white;
+  font-size: 3em;
+}
+/********************************************/
+/*Content page*/
+/********************************************/
+.portfolio-item {
+  margin-bottom: 30px;
+}
+.color-dark{
+    color:#008000;
+}
+.color-clear{
+    color:#8dd35f;
+}
+
+
+/********************************************/
+/*Footer*/
+/********************************************/
+footer {
+    position: fixed;
+    height: 40px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+.div-footer{
+    height: 50px;
+    bottom: 0;
+    width: 100%;
+}
+.footer-container {
+  height: 100%;
+  display: inline-block; 
+  text-align: right;
+  vertical-align: middle;
+  width: 85%;
+  max-width: 1080px;
+}
+
+/********************************************/
+/*Social icon colors general*/
+/********************************************/
+
+.fa, .ai, .upna{
+  color : #8dd35f;
+  vertical-align: middle;
+}
+.fa:hover, .ai:hover, .upna:hover{
+  color : #008000;
+}
+
+/*upna logo*/
+.upna{
+  display: inline-block;
+  font: normal normal normal 14px/1 upna;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+.upna-2x {
+  font-size: 1.6em;
+}
+.upna-escudo{
+}
